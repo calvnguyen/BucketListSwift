@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		78DD8E8B1E2D781000E7DF61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DD8E8A1E2D781000E7DF61 /* AppDelegate.swift */; };
-		78DD8E8D1E2D781000E7DF61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DD8E8C1E2D781000E7DF61 /* ViewController.swift */; };
+		78DD8E8D1E2D781000E7DF61 /* BucketListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DD8E8C1E2D781000E7DF61 /* BucketListViewController.swift */; };
 		78DD8E901E2D781000E7DF61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78DD8E8E1E2D781000E7DF61 /* Main.storyboard */; };
 		78DD8E921E2D781000E7DF61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78DD8E911E2D781000E7DF61 /* Assets.xcassets */; };
 		78DD8E951E2D781100E7DF61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78DD8E931E2D781100E7DF61 /* LaunchScreen.storyboard */; };
 		78DD8EA01E2D781100E7DF61 /* BucketList_v1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DD8E9F1E2D781100E7DF61 /* BucketList_v1Tests.swift */; };
 		78DD8EAB1E2D781100E7DF61 /* BucketList_v1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DD8EAA1E2D781100E7DF61 /* BucketList_v1UITests.swift */; };
+		78DD8EB91E2D8A0000E7DF61 /* AddItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DD8EB81E2D8A0000E7DF61 /* AddItemTableViewController.swift */; };
+		78DD8EBF1E2DA04F00E7DF61 /* AddItemTableViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DD8EBE1E2DA04F00E7DF61 /* AddItemTableViewControllerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		78DD8E871E2D781000E7DF61 /* BucketList_v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList_v1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DD8E8A1E2D781000E7DF61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		78DD8E8C1E2D781000E7DF61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		78DD8E8C1E2D781000E7DF61 /* BucketListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListViewController.swift; sourceTree = "<group>"; };
 		78DD8E8F1E2D781000E7DF61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78DD8E911E2D781000E7DF61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78DD8E941E2D781100E7DF61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		78DD8EA61E2D781100E7DF61 /* BucketList_v1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BucketList_v1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DD8EAA1E2D781100E7DF61 /* BucketList_v1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketList_v1UITests.swift; sourceTree = "<group>"; };
 		78DD8EAC1E2D781100E7DF61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78DD8EB81E2D8A0000E7DF61 /* AddItemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddItemTableViewController.swift; path = BucketList_v1/AddItemTableViewController.swift; sourceTree = "<group>"; };
+		78DD8EBE1E2DA04F00E7DF61 /* AddItemTableViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemTableViewControllerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		78DD8E7E1E2D781000E7DF61 = {
 			isa = PBXGroup;
 			children = (
+				78DD8EBE1E2DA04F00E7DF61 /* AddItemTableViewControllerDelegate.swift */,
+				78DD8EB81E2D8A0000E7DF61 /* AddItemTableViewController.swift */,
 				78DD8E891E2D781000E7DF61 /* BucketList_v1 */,
 				78DD8E9E1E2D781100E7DF61 /* BucketList_v1Tests */,
 				78DD8EA91E2D781100E7DF61 /* BucketList_v1UITests */,
@@ -98,7 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				78DD8E8A1E2D781000E7DF61 /* AppDelegate.swift */,
-				78DD8E8C1E2D781000E7DF61 /* ViewController.swift */,
+				78DD8E8C1E2D781000E7DF61 /* BucketListViewController.swift */,
 				78DD8E8E1E2D781000E7DF61 /* Main.storyboard */,
 				78DD8E911E2D781000E7DF61 /* Assets.xcassets */,
 				78DD8E931E2D781100E7DF61 /* LaunchScreen.storyboard */,
@@ -262,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78DD8E8D1E2D781000E7DF61 /* ViewController.swift in Sources */,
+				78DD8E8D1E2D781000E7DF61 /* BucketListViewController.swift in Sources */,
 				78DD8E8B1E2D781000E7DF61 /* AppDelegate.swift in Sources */,
+				78DD8EBF1E2DA04F00E7DF61 /* AddItemTableViewControllerDelegate.swift in Sources */,
+				78DD8EB91E2D8A0000E7DF61 /* AddItemTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +522,7 @@
 				78DD8EB11E2D781100E7DF61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78DD8EB21E2D781100E7DF61 /* Build configuration list for PBXNativeTarget "BucketList_v1Tests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +531,7 @@
 				78DD8EB41E2D781100E7DF61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78DD8EB51E2D781100E7DF61 /* Build configuration list for PBXNativeTarget "BucketList_v1UITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +540,7 @@
 				78DD8EB71E2D781100E7DF61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
