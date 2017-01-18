@@ -10,7 +10,9 @@ import UIKit
 
 protocol AddItemTableViewControllerDelegate: class {
     
-    func itemSaved(by controller: AddItemTableViewController, with text: String, at indexPath: NSIndexPath?)
+    func itemAdded(by controller: AddItemTableViewController, with text: String)
+    
+    func itemEdited(by controller: AddItemTableViewController, with text: String, on item: List)
     
     func cancelButtonPressed(by controller: AddItemTableViewController)
     
